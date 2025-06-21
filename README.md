@@ -2,7 +2,7 @@
 
 
 ## Features
-Full CRUD Functionality Create, Read, Update, and Delete products effortlessly
+Full CRUD Functionality Create, Read, Update, and Delete users effortlessly
 
 ## Tech Stack
 - PHP
