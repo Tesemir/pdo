@@ -11,13 +11,7 @@ while ($user = $stmt->fetch(PDO::FETCH_ASSOC)) {
     var_dump($user);
 }
 
-// С использованием fetchAll()
-
 $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-// Получение одной записи по ID
-
-// Прямые запросы
 
 $userId = '1';
 $sql = "SELECT * FROM users WHERE id = $userId";

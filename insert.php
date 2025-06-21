@@ -2,8 +2,8 @@
 
 $pdo = include_once 'connection.php';
 
-$name = 'Михал Палыч';
-$email = 'mihal.palich@areaweb.su';
+$name = 'John Doe';
+$email = 'johndoe@example.com';
 $password = 'p@ssword';
 
 $sql = "INSERT INTO users (name, email, password) VALUES (:name, :email, :password)";
@@ -16,5 +16,5 @@ try {
         'password' => $password
     ]);
 } catch (PDOException $exception) {
-    echo "Ошибка при добавлении нового пользователя: {$exception->getMessage()}";
+    echo "Mistake: {$exception->getMessage()}";
 }
